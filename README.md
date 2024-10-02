@@ -4,19 +4,14 @@ This repository contains the backend code for a web chat application named Chat 
 
 ## Setup
 
-1. Clone the repository:
 
-   ```bash
-   git clone aabhas1234/code-nexu-backend
-   ```
-
-2. Install dependencies:
+1. Install dependencies:
 
    ```bash
    npm install
    ```
 
-3. Create a `.env` file based on the provided `.env.sample` and fill in the necessary environment variables:
+2. Create a `.env` file based on the provided `.env.sample` and fill in the necessary environment variables:
 
    ```dotenv
    PORT=8000
@@ -30,7 +25,7 @@ This repository contains the backend code for a web chat application named Chat 
    CLOUDINARY_API_SECRET=your_cloud_secret
    ```
 
-4. Start the server:
+3. Start the server:
    ```bash
    npm run start
    ```
