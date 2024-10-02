@@ -7,7 +7,7 @@ This repository contains the backend code for a web chat application named Chat 
 1. Clone the repository:
 
    ```bash
-   git clone pulkit-1110/chat-nexus-backend
+   git clone aabhas1234/code-nexu-backend
    ```
 
 2. Install dependencies:
@@ -20,7 +20,7 @@ This repository contains the backend code for a web chat application named Chat 
 
    ```dotenv
    PORT=8000
-   MONGO_URI="mongodb://127.0.0.1:27017/chat_nexus"
+   MONGO_URI="YOUR MONGO CONNECTION STRING"
    JWT_SECRET=sample_jwt_secret
    ADMIN_SECRET_KEY=sample_admin_key
    NODE_ENV=development
@@ -50,10 +50,4 @@ This repository contains the backend code for a web chat application named Chat 
 - Express.js
 - Node.js
 
-## Contributors
 
-- [Pulkit Uppal](https://github.com/pulkit-1110)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
